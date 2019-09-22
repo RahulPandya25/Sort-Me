@@ -1,0 +1,44 @@
+.content {
+  //   background: lightblue;
+  height: calc(100% - 60px); // 60px for navbar
+  width: 100%;
+  padding: 1em;
+
+  display: flex;
+
+  .sidebar {
+    // background: lightpink;
+    height: 100%;
+    width: 25%;
+    border-right: 2px solid rgba($color: #222222, $alpha: 0.4);
+  }
+
+  .main-content {
+    // background: lightgreen;
+    height: 100%;
+    width: calc(100% - 25%); // 20% for sidebar
+    display: flex;
+    justify-content: center;
+
+    .array-chart {
+      .bar {
+        width: 20px;
+        height: 500px;
+        border: 1px solid rgba($color: #222222, $alpha: 0.4);
+        margin: 0 1px;
+      }
+    }
+  }
+}
+
+.green {
+  background: lightgreen;
+}
+
+.pink {
+  background: lightpink;
+}
+
+.blue {
+  background: lightskyblue;
+}
